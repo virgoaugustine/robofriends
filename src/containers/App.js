@@ -40,8 +40,8 @@ class App extends Component {
       )
     }
     return (
-      <div className='tc'>
-        <h1 className="f-subheadline lh-title">Robo~Friends</h1>
+      <div className='tc app-body'>
+        <h1>RoboFriends</h1>
         <Searchbox searchValue = {this.getSearchValue} />
         <ErrorBoundary>
         <Cardlist robots = {filteredRobots}/>
