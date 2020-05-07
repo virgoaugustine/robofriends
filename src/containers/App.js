@@ -36,7 +36,11 @@ class App extends Component {
     })
     if (!robots.length){
       return (
-        <div className="f-subheadline lh-title tc">Loading...</div>
+        <div>
+        <h1>
+          Loading...
+        </h1>
+        </div>
       )
     }
     return (

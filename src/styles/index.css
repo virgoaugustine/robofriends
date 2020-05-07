@@ -8,6 +8,7 @@ body {
   background: linear-gradient(to right, #00fa00, #3a88fe);
   background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 
   
 }
